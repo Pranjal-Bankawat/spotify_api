@@ -1,0 +1,71 @@
+
+.Tracks{
+    background-color: #fff;
+    padding: 25px;
+    margin: 0 25px 0 0;
+}
+
+.Track,
+.TrackDetails{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Track{
+    justify-content: space-between;
+}
+
+.TrackDetailsContainer{
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.TracksHeader{
+    margin: 0 0 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.TracksPosition{
+    width: 50%;
+}
+
+.TracksPosition p,
+.Position p{
+    display: block;
+    width: 33%;
+    text-align: center;
+}
+
+.Track{
+    font-weight: 600;
+    border-top: 1px solid #bcbcbc;
+    padding: 15px 0;
+}
+
+.TrackImage{
+    width: 70px;
+    height: 70px;
+    margin: 0 20px;
+}
+
+.TrackTitle,
+.TrackNumber{
+    font-size: 18px;
+}
+
+.TrackAlbum{
+    margin-top: 5px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.Position{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 18px;
+}

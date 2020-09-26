@@ -1,0 +1,108 @@
+.Playlist{
+    width: 80%;
+    height: 100%;
+    overflow-y: scroll;
+    font-family: inherit;
+    background-color: #EDEDED;
+}
+
+.PlaylistItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 60%;
+    font-style: inherit;
+    background-color: #EDEDED;
+}
+
+.PlaylistTracks{
+    width: 100%;
+}
+
+.PlaylistHeader,
+.PlaylistLinks,
+.PlaylistOptions,
+.Track,
+.TrackOptions,
+.TrackDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.PlaylistHeader{
+    margin: 25px 0;
+}
+
+.PlaylistTitle{
+    color: #086972;
+}
+.PlaylistTracks{
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.PlaylistLinks,
+.TrackOptions{
+    list-style: none;
+    width: 30%;
+}
+
+.PlaylistOptions img{
+    height: 40px;
+    width: 40px;
+}
+
+.PlayAllBtn{
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border-style: none;
+    outline: none;
+    background-color: #086972;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+}
+
+.PlaylistLink img{
+    height: 30px;
+    width: 30px;
+}
+
+.Track{
+    font-weight: 600;
+    border-bottom: 1px solid #bcbcbc;
+    padding: 15px 0;
+}
+
+.Track:first-of-type{
+    border-top: 1px solid #bcbcbc;
+    margin-top: 30px;
+}
+
+.TrackOptions{
+    width: 17%;
+}
+
+.TrackOption img{
+    height: 20px;
+    width: 20px;
+}
+
+.TrackImage{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+}
+
+.TrackAlbum{
+    margin-top: 5px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+}

@@ -1,0 +1,46 @@
+.Track,
+.TrackOptions,
+.TrackDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.TrackOptions{
+    list-style: none;
+    width: 30%;
+}
+
+.Track{
+    font-weight: 600;
+    border-bottom: 1px solid #bcbcbc;
+    padding: 15px 0;
+}
+
+.Track:first-of-type{
+    border-top: 1px solid #bcbcbc;
+    margin-top: 30px;
+}
+
+.TrackOptions{
+    width: 17%;
+}
+
+.TrackOption img{
+    height: 20px;
+    width: 20px;
+}
+
+.TrackImage{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+}
+
+.TrackAlbum{
+    margin-top: 5px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+}

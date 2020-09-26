@@ -1,0 +1,121 @@
+.SideNav{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    max-height: auto;
+    min-height: 88vh;
+    height: 100%;
+    background-color: #2A2A2A;
+    font-family: inherit;
+}
+
+.SideNavHeader{
+    width: 100%;
+    height: 10%;
+    border-bottom: 2px solid #373737;
+}
+
+.Browse,
+.Queue{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.Browse{
+    background-color: #373737;
+}
+
+.Browse p,
+.Queue p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.SideNavBody{
+    width: 100%;
+}
+
+.SideNavBody div{
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.Dashboard{
+    margin-top: 15px !important;
+}
+
+.LinkInactive{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    color: #BCBCBC;
+    padding: 10px;
+    position: relative;
+    z-index: 5;
+}
+
+.LinkInactive p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.LinkInactive img{
+    height: 20px;
+    width: 20px;
+    margin: 0 10px 0 15px;
+}
+
+.PlaylistItems,
+.ChartItems{
+    display: block;
+    margin-left: 55px;
+}
+
+.PlaylistItems p,
+.ChartItems p{
+    font-size: 14px;
+    color: #bcbcbc;
+    margin: 10px 0;
+}
+
+.LinkInactive:hover{
+    background-color: #373737;
+}
+
+.LinkHover{
+    content: ' ';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #373737;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.Playlist .LinkHover,
+.Charts .LinkHover{
+    z-index: -1;
+}
+
+
+.LinkActive{
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 8px;
+    background-color: #086972;
+    z-index: 6;
+}
