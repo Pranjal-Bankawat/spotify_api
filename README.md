@@ -6,11 +6,13 @@ To launch on your machine
 Step 1: Install Dependencies
 
 npm install; 
+
 cd auth-server && npm install
 
 Step 2: Launch App
 
 npm start; 
+
 cd auth-server && cd authorization-code && node app.js
 
 PS: Will include concurrently for easier installation in future updates.
